@@ -1,0 +1,88 @@
+
+@media (max-width: 1024px) {
+    
+body{
+    margin-top:  0%;
+   
+       font-family: monospace;
+    transition-property: all;
+    transition-duration: 1s;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+}
+
+
+@media (max-width: 768px) {
+    
+    body{
+        margin-top:  0%;
+     
+        font-family: monospace;
+        transition-property: all;
+        transition-duration: 1s;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    }
+    
+
+    
+@media (max-width: 500px) {
+    body{
+        margin-top:  0%;
+       
+            font-family: monospace;
+        transition-property: all;
+        transition-duration: 1s;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        
+    }
+}
+    
+
+
+
+
+hr{
+    height: 4px;
+    background: rgb(5, 5, 5);
+}
+a, button{
+    color:rgb(76, 73, 66);
+    font-weight: bold;
+    border: 4px outset ;
+    
+    font-size: 29px; 
+    font-family:serif;
+}
+img:hover {
+    transform: scale(1.1);
+    overflow: hidden;
+    
+   
+  }
+  button:active {
+    background: rgb(153, 6, 63);
+    color:white;
+  }
+  a:visited {
+    color: rgb(222, 62, 34);
+  }
+h1{
+    font-size:70px;
+    font-family: 'Courier New', Courier, monospace;
+}
+h2{
+    font-size:51px;
+    font-family: 'Courier New', Courier, monospace;
+}
+h5,h4{
+    font-size:31px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+span{
+    font-size: 40px;
+}

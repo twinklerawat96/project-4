@@ -1,0 +1,192 @@
+@media (min-width: 500px) {
+    body {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 767px) {
+    .content, .display {
+      float: none;
+      width: 100%;
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    
+    transition-property: all;
+    transition-duration: 1s;
+
+}
+
+header {
+    clear: right;
+    min-height: 80vh;
+    min-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#heading {
+    display: flex;
+  background-image: url("https://img.freepik.com/free-photo/abstract-blue-background_90380-1282.jpg?w=2000");
+    position: sticky;
+    top: 0;
+    transition: 0.4s;
+    padding: 5px;
+   background-size: contain;
+   
+}
+img:hover {
+    transform: scale(1.1);
+    overflow: hidden;
+    
+   
+  }
+
+
+
+
+#name {
+    font-size: 60px;
+    font-weight: bold;
+    color: black;
+    padding-left: 1%;
+    padding-right: 10%;
+    margin-top: 1%;
+}
+
+#navigate {
+    float: right;
+    text-align:center;
+    font-size: 22px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#navigate a, #navigate a:visited {
+    padding: 10px;   
+    margin: 30px;
+    
+    color: rgb(159, 152, 219);
+font-weight: bold;
+    background: azure;  
+    text-decoration: none;
+    border: 1px solid black; 
+}
+
+#navigate a:hover {
+    background-color: rgba(255, 25, 151, 0.76);
+    color: white;
+}
+
+
+
+main,footer {
+    padding: 0 1%;
+}
+
+.description:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .content {
+    float: left;
+    width: 70%;
+  }
+  
+  .display {
+    float: right;
+    width: 30%;
+  }
+
+
+
+h3 {
+    text-align: center;
+}
+
+h1 {
+    text-align: center; font-size: xx-large;
+}
+
+
+
+
+
+ul {
+    display: block;
+    justify-items: space-around;
+}
+
+li {
+    margin-right: 10%;
+    padding-bottom: 3%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    float: left;
+}
+
+.container div span {
+    font-size: 15px;
+}
+
+.form .details .input-box {
+    margin-bottom: 15px;
+    width: calc(100% /2 -20px)
+}
+
+.form .details .input-box input {
+  height: 30px;
+  width: 100%;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+
+.button {
+    text-align: center; 
+    margin-top: 5%;
+    margin-bottom: 30px;
+}
+
+.click {
+    width: 200px;
+    height: 50px;
+    border: 4px dotted;
+  
+    padding: 20px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+  text-align: center;
+    background: linear-gradient( #71e69a, #9b59b6);
+    transition-duration: 1s;
+    transition-property: all;
+}
+
+.click:hover {
+    background: linear-gradient(to left, #71b7e6, #9b59b6);
+    color: black;
+}
+
+.click:active {
+    background: purple;
+    color: white;
+}
+
+
+
+
+
